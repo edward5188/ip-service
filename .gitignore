@@ -1,0 +1,8 @@
+# COMMON
+target
+dat
+webapp
+
+# IDEA
+.idea
+*.iml

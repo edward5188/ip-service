@@ -1,0 +1,13 @@
+server:
+  port: 8052
+  compression:
+    enabled: true
+
+config:
+  file-path: dat/ip.dat
+
+spring:
+  jackson:
+    default-property-inclusion: non_empty
+  resources:
+    static-locations: file:webapp
